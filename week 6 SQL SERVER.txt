@@ -1,0 +1,23 @@
+
+------------------Show how to see an execution------------------------------------------------------------------------------
+
+--------------------this is the first query-----------------------------------------------------------------------------
+use AdventureWorks2019
+select 
+Addressline1
+,postalcode
+,ModifiedDate
+from person.Address
+Where city='Bothell';
+
+
+----------------- my second query---------------------------------------------------------------------------
+
+select
+
+persontype
+,FirstName
+,LastName
+,ModifiedDate
+from person.person
+where Firstname='janice'
